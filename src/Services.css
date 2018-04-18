@@ -1,0 +1,21 @@
+.listOfServices {
+  display: flex;
+  justify-content: center;
+}
+
+.servicestitle {
+  text-align: center;
+}
+
+.listitem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.booknow {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+}

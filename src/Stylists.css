@@ -1,0 +1,12 @@
+.bios {
+  width: 100%;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
