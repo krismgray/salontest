@@ -8,10 +8,10 @@ class Footer extends Component {
       <div>
           <div className='footer'>
             <a href="https://www.facebook.com/salon.beleza84045/">
-              <Icon color='black' name='facebook square' size='huge' />
+              <Icon color='black' name='facebook square' size='big' />
             </a>
             <a href="https://www.instagram.com/salon.beleza/">
-              <Icon color='black' name='instagram' size='huge' />
+              <Icon color='black' name='instagram' size='big' />
             </a>
             <div className='footnote2'>
               <p>All Rights Reserved</p>

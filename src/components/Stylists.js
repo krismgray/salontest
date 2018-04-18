@@ -33,9 +33,9 @@ class Stylists extends Component {
                         <p className='textbox'>Jaclyn has been doing hair for 9 years. She is inspired by the ongoing trend of the balayage and loves to create variations of that work on her clients. Last Summer, Jaclyn fell in love with extension installation and continues to build the passion with each set she transforms her clients with.  Jaclyn recently became a mom to a perfect little girl and loves splitting her time between home and he salon. Jaclyns clients fall in  love with her not only for her passion and talent but also because of her fun easy going personality.
                         </p>
                       </Item.Description>
-                      <Link to=''>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
                         <Button primary>Book now</Button>
-                      </Link>
+                      </a>
                     </Item.Content>
                   </Item>
                 </Item.Group>
@@ -48,16 +48,16 @@ class Stylists extends Component {
                     <Item.Header style={{ "font-weight" : "bolder",
                                           "font-size" : "22px",
                                           "text-decoration" : "underline",
-                                         }}>Brooke Anderson</Item.Header>
+                                        }}>Brooke Andersen</Item.Header>
                     <Item.Meta>About Me</Item.Meta>
                     <Item.Description>
                       <p className='textbox'>Brooke has been doing hair for 3 Years. Growing up she always had a passion for hair and loves that she gets to do it every day. Brooke graduated from Aveda Institute in Provo Utah. She specializes in balayages and highlights but also loves doing colors and cuts. Hey favorite thing about the industry is seeing the smile on her clients face and making them feel beautiful everyday . Outside of work she and her husband love spending time with their family. They love to spend time outdoors running, hiking, or even just a weekend in the mountains with family and friends.
                       </p>
                     </Item.Description>
                     <br />
-                    <Link to=''>
-                      <Button primary>Book now</Button>
-                    </Link>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
+                        <Button primary>Book now</Button>
+                      </a>
                   </Item.Content>
                 </Item>
               </Item.Group>
@@ -80,9 +80,9 @@ class Stylists extends Component {
                         <p className='textbox'>Kim loves the creative aspect doing hair gives her. She went to Renaissance Academie in Provo, Utah and finished in January of 2018. Since then she has continued her education at specialized classes in blonding and consistently keeps up with new techniques shared by leaders of the industry. Kim is not a one size fits all stylist and you can bet she'll have some fun ideas for you! She loves anything outdoors and her most recent adventure will be a Volunteer trip to Nepal this summer. She is still growing her clientele and would love to meet you!
                         </p>
                       </Item.Description>
-                      <Link to=''>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
                         <Button primary>Book now</Button>
-                      </Link>
+                      </a>
                     </Item.Content>
                   </Item>
                 </Item.Group>
@@ -102,9 +102,9 @@ class Stylists extends Component {
                       </p>
                     </Item.Description>
                     <br />
-                    <Link to=''>
-                      <Button primary>Book now</Button>
-                    </Link>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
+                        <Button primary>Book now</Button>
+                      </a>
                   </Item.Content>
                 </Item>
               </Item.Group>
@@ -130,9 +130,9 @@ class Stylists extends Component {
                         Brandi has been at Salon Beleza for four years. She works part time in the salon doing hair, and full time outside the salon raising two wild redheads. Along with raising two kids, Brandi enjoys the outdoors, the small farm her and her husband have created, and bing watching Netflix with popcorn and Cadbury eggs.
                         </p>
                       </Item.Description>
-                      <Link to=''>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
                         <Button primary>Book now</Button>
-                      </Link>
+                      </a>
                     </Item.Content>
                   </Item>
                 </Item.Group>
@@ -152,9 +152,9 @@ class Stylists extends Component {
                       </p>
                     </Item.Description>
                     <br />
-                    <Link to=''>
-                      <Button primary>Book now</Button>
-                    </Link>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
+                        <Button primary>Book now</Button>
+                      </a>
                   </Item.Content>
                 </Item>
               </Item.Group>
@@ -178,9 +178,9 @@ class Stylists extends Component {
 
                         </p>
                       </Item.Description>
-                      <Link to=''>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
                         <Button primary>Book now</Button>
-                      </Link>
+                      </a>
                     </Item.Content>
                   </Item>
                 </Item.Group>
@@ -200,9 +200,9 @@ class Stylists extends Component {
                       </p>
                     </Item.Description>
                     <br />
-                    <Link to=''>
-                      <Button primary>Book now</Button>
-                    </Link>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
+                        <Button primary>Book now</Button>
+                      </a>
                   </Item.Content>
                 </Item>
               </Item.Group>
@@ -225,9 +225,9 @@ class Stylists extends Component {
                         <p className='textbox'>Ashlyn has been doing hair for 10+ years, 6+ of those years at Salon Beleza. Ashlyn loves the industry. She attended Paul Mitchell in Provo, Utah.  Doing hair has been her passion ever sense she graduated. She loves the cosmetology industry and the joy it brings to her life. She believes that there is nothing better than making someone feel beautiful in just a short period of time. Ashlyn currently has a 4 year old old son and another son on the way. She and her husband love spending time as a family doing various outdoor activities as well as Crossfit, Running, Water Skiing, playing the piano and, of course, chasing her little boy around.
                         </p>
                       </Item.Description>
-                      <Link to=''>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
                         <Button primary>Book now</Button>
-                      </Link>
+                      </a>
                     </Item.Content>
                   </Item>
                 </Item.Group>
@@ -247,9 +247,9 @@ class Stylists extends Component {
                       </p>
                     </Item.Description>
                     <br />
-                    <Link to=''>
-                      <Button primary>Book now</Button>
-                    </Link>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
+                        <Button primary>Book now</Button>
+                      </a>
                   </Item.Content>
                 </Item>
               </Item.Group>
@@ -273,9 +273,9 @@ class Stylists extends Component {
                           Winter has been a licensed cosmetologist for 12 years, starting in California in 2006. She was born and raised in northern California and went to school at Frederick and Charles Beauty College. Winter had a passion for the beauty industry from a very small age and decided she'd want to become a stylist around the age of 13. She enjoys balayage, foiling and short haircuts. She added hair extensions to her services 2 years ago and absolutely loves it.  Winter has been with Salon Beleza for 3 years now and brings so much personality and friendship to the group. Outside of doing hair Winter enjoys going to the gym, the outdoors and her 5 year old daughter. Winter comes from a family of artists and has two older siblings, both brothers gifted with amazing artistic talents.  Winters artistic abilities come out with doing hair and each client is her canvas. Winter is beyond passionate about her work, and her life as a stylist.
                         </p>
                       </Item.Description>
-                      <Link to=''>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
                         <Button primary>Book now</Button>
-                      </Link>
+                      </a>
                     </Item.Content>
                   </Item>
                 </Item.Group>
@@ -295,9 +295,9 @@ class Stylists extends Component {
                       </p>
                     </Item.Description>
                     <br />
-                    <Link to=''>
-                      <Button primary>Book now</Button>
-                    </Link>
+                      <a href="https://www.vagaro.com/salonbeleza/book-now">
+                        <Button primary>Book now</Button>
+                      </a>
                   </Item.Content>
                 </Item>
               </Item.Group>

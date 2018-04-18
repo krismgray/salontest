@@ -92,7 +92,7 @@
 .mobilemenu {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .mobilemenutitle {
@@ -126,4 +126,8 @@
   background-position: center;
   height: 300px;
   width: 100%;
+}
+
+.mobileheader {
+  text-align: center;
 }

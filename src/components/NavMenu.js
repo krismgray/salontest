@@ -82,6 +82,9 @@ class NavMenu extends Component {
           <div className='mobilemenutitle'>
           <p>Salon Beleza</p>
           </div>
+          <div className='mobilemenuPic'>
+            <Image src={require('../images/whitebox.png')} size='tiny' />
+          </div>
           </div>
             <Sidebar as={Menu} animation='overlay' visible={visible} direction='top' vertical inverted>
               <Button secondary onClick={this.toggleVisibility}><Icon name='remove' size='large' /></Button>
@@ -117,9 +120,6 @@ class NavMenu extends Component {
               </Link>
           </Sidebar>
           <Divider />
-          <div className='mobilemenuPic'>
-            <Image src={require('../images/logo2.jpg')} size='large' />
-          </div>
           <br />
         </div>
       )
