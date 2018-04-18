@@ -109,6 +109,7 @@ class Home extends Component {
           <div>
             <NavMenu />
           </div>
+          <Divider />
           <div className='mobileheader'>
             <Header as='h1'>Welcome to Salon Beleza!</Header>
           </div>

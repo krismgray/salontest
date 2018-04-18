@@ -119,7 +119,6 @@ class NavMenu extends Component {
                 </Menu.Item>
               </Link>
           </Sidebar>
-          <Divider />
           <br />
         </div>
       )

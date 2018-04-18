@@ -5,6 +5,7 @@ import NavMenu from './NavMenu';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import '../Stylists.css';
+import LazyLoad from 'react-lazy-load';
 
 class Stylists extends Component {
   render() {
@@ -21,7 +22,9 @@ class Stylists extends Component {
               <Col xs={12} md={6}>
                 <Item.Group>
                   <Item>
-                    <Item.Image src={require('../images/jaclyn.jpg')} size='medium' verticalAlign='middle' />
+                    <LazyLoad>
+                      <Item.Image src={require('../images/jaclyn.jpg')} size='medium' verticalAlign='middle' />
+                    </LazyLoad>
                     <Item.Content>
                       <Item.Header style={{ "font-weight" : "600",
                                             "font-size" : "22px",
@@ -43,7 +46,9 @@ class Stylists extends Component {
             <Col xs={12} md={6}>
               <Item.Group>
                 <Item>
-                  <Item.Image src={require('../images/brooke6.jpg')} size='medium' verticalAlign='middle' />
+                  <LazyLoad>
+                    <Item.Image src={require('../images/brooke6.jpg')} size='medium' verticalAlign='middle' />
+                  </LazyLoad>
                   <Item.Content>
                     <Item.Header style={{ "font-weight" : "bolder",
                                           "font-size" : "22px",
@@ -68,7 +73,9 @@ class Stylists extends Component {
               <Col xs={12} md={6}>
                 <Item.Group>
                   <Item>
-                    <Item.Image src={require('../images/kim2.jpg')} size='medium' verticalAlign='middle' />
+                    <LazyLoad>
+                      <Item.Image src={require('../images/kim2.jpg')} size='medium' verticalAlign='middle' />
+                    </LazyLoad>
                     <Item.Content>
                       <Item.Header style={{ "font-weight" : "600",
                                             "font-size" : "22px",
@@ -90,7 +97,9 @@ class Stylists extends Component {
             <Col xs={12} md={6}>
               <Item.Group>
                 <Item>
-                  <Item.Image src={require('../images/maddi11.jpg')} size='medium' verticalAlign='middle' />
+                  <LazyLoad>
+                    <Item.Image src={require('../images/maddi11.jpg')} size='medium' verticalAlign='middle' />
+                  </LazyLoad>
                   <Item.Content>
                     <Item.Header style={{ "font-weight" : "bolder",
                                           "font-size" : "22px",
@@ -115,7 +124,9 @@ class Stylists extends Component {
               <Col xs={12} md={6}>
                 <Item.Group>
                   <Item>
-                    <Item.Image src={require('../images/brandi.jpg')} size='medium' verticalAlign='middle' />
+                    <LazyLoad>
+                      <Item.Image src={require('../images/brandi.jpg')} size='medium' verticalAlign='middle' />
+                    </LazyLoad>
                     <Item.Content>
                       <Item.Header style={{ "font-weight" : "600",
                                             "font-size" : "22px",
@@ -140,7 +151,9 @@ class Stylists extends Component {
             <Col xs={12} md={6}>
               <Item.Group>
                 <Item>
-                  <Item.Image src={require('../images/halie1.jpg')} size='medium' verticalAlign='middle' />
+                  <LazyLoad>
+                    <Item.Image src={require('../images/halie1.jpg')} size='medium' verticalAlign='middle' />
+                  </LazyLoad>
                   <Item.Content>
                     <Item.Header style={{ "font-weight" : "bolder",
                                           "font-size" : "22px",
@@ -165,7 +178,9 @@ class Stylists extends Component {
               <Col xs={12} md={6}>
                 <Item.Group>
                   <Item>
-                    <Item.Image src={require('../images/beth10.jpg')} size='medium' verticalAlign='middle' />
+                    <LazyLoad>
+                      <Item.Image src={require('../images/beth10.jpg')} size='medium' verticalAlign='middle' />
+                    </LazyLoad>
                     <Item.Content>
                       <Item.Header style={{ "font-weight" : "600",
                                             "font-size" : "22px",
@@ -188,7 +203,9 @@ class Stylists extends Component {
             <Col xs={12} md={6}>
               <Item.Group>
                 <Item>
-                  <Item.Image src={require('../images/audrey6.jpg')} size='medium' verticalAlign='middle' />
+                  <LazyLoad>
+                    <Item.Image src={require('../images/audrey6.jpg')} size='medium' verticalAlign='middle' />
+                  </LazyLoad>
                   <Item.Content>
                     <Item.Header style={{ "font-weight" : "bolder",
                                           "font-size" : "22px",
@@ -213,7 +230,9 @@ class Stylists extends Component {
               <Col xs={12} md={6}>
                 <Item.Group>
                   <Item>
-                    <Item.Image src={require('../images/ashy5.jpg')} size='medium' verticalAlign='middle' />
+                    <LazyLoad>
+                      <Item.Image src={require('../images/ashy5.jpg')} size='medium' verticalAlign='middle' />
+                    </LazyLoad>
                     <Item.Content>
                       <Item.Header style={{ "font-weight" : "600",
                                             "font-size" : "22px",
@@ -235,7 +254,9 @@ class Stylists extends Component {
             <Col xs={12} md={6}>
               <Item.Group>
                 <Item>
-                  <Item.Image src={require('../images/kimber.jpg')} size='medium' verticalAlign='middle' />
+                  <LazyLoad>
+                    <Item.Image src={require('../images/kimber.jpg')} size='medium' verticalAlign='middle' />
+                  </LazyLoad>
                   <Item.Content>
                     <Item.Header style={{ "font-weight" : "bolder",
                                           "font-size" : "22px",
@@ -260,7 +281,9 @@ class Stylists extends Component {
               <Col xs={12} md={6}>
                 <Item.Group>
                   <Item>
-                    <Item.Image src={require('../images/winter9.jpg')} size='medium' verticalAlign='middle' />
+                    <LazyLoad>
+                      <Item.Image src={require('../images/winter9.jpg')} size='medium' verticalAlign='middle' />
+                    </LazyLoad>
                     <Item.Content>
                       <Item.Header style={{ "font-weight" : "600",
                                             "font-size" : "22px",
@@ -283,7 +306,9 @@ class Stylists extends Component {
             <Col xs={12} md={6}>
               <Item.Group>
                 <Item>
-                  <Item.Image src={require('../images/kimber.jpg')} size='medium' verticalAlign='middle' />
+                  <LazyLoad>
+                    <Item.Image src={require('../images/kimber.jpg')} size='medium' verticalAlign='middle' />
+                  </LazyLoad>
                   <Item.Content>
                     <Item.Header style={{ "font-weight" : "bolder",
                                           "font-size" : "22px",
