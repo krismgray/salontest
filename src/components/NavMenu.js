@@ -78,12 +78,10 @@ class NavMenu extends Component {
       return(
         <div>
           <div className='mobilemenu'>
-          <Button secondary onClick={this.toggleVisibility}><Icon name='content' size='large' /></Button>
-          <div className='mobilemenutitle'>
-          <p>Salon Beleza</p>
-          </div>
+          <Button color='black' icon onClick={this.toggleVisibility}><Icon name='content' size='large' /></Button>
+          <Header as='h1' style={{ "text-decoration" : "underline" }}>Salon Beleza</Header>
           <div className='mobilemenuPic'>
-            <Image src={require('../images/whitebox.png')} size='tiny' />
+
           </div>
           </div>
             <Sidebar as={Menu} animation='overlay' visible={visible} direction='top' vertical inverted>
@@ -119,7 +117,6 @@ class NavMenu extends Component {
                 </Menu.Item>
               </Link>
           </Sidebar>
-          <br />
         </div>
       )
     }

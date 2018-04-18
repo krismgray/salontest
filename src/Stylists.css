@@ -1,7 +1,5 @@
 .bios {
   width: 100%;
-  padding-top: 15px;
-  align-items: center;
 }
 
 .textbox {
@@ -9,4 +7,14 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.buttonbox {
+  padding-left: 10px;
+}
+
+.styliststitle {
+  text-align: center;
 }
