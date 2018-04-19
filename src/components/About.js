@@ -21,6 +21,7 @@ class About extends React.Component {
         <div>
           <NavMenu />
         </div>
+        <br />
         <div className='slideshow'>
           <Container fluid>
             <Carousel>

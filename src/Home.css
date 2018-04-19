@@ -42,15 +42,21 @@
   background-size: cover;
   background-color: #FFEADE;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.footer1 {
+  display: flex;
+  flex-direction: row;
+}
+
 .footnote2 {
   display: flex;
+  font-size: 13px;
   flex-direction: row;
   align-items: center;
   padding-left: 20px;
