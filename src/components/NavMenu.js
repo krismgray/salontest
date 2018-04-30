@@ -20,7 +20,7 @@ class NavMenu extends Component {
     window.removeEventListener('resize', this.handleResize());
   }
 
-  toggleVisibility = () => this.setState({ visible: !this.state.visible })
+  toggleVisibility = () => this.setState({ visible: !this.state.visible });
 
   render() {
     const { activeItem, width, visible } = this.state;
@@ -78,12 +78,14 @@ class NavMenu extends Component {
       return(
         <div>
           <div className='mobilemenu'>
-          <Button color='black' icon onClick={this.toggleVisibility}><Icon name='content' size='large' /></Button>
-          <Header as='h1' style={{ "text-decoration" : "underline" }}>Salon Beleza</Header>
-          <div className='mobilemenuPic'>
-
+            <div className='mobilemenu1'>
+            <Button size='big' color='black' icon onClick={this.toggleVisibility}><Icon name='content' size='large' /></Button>
+            </div>
+            <div className='mobilemenu2'>
+              <Header as='h1' style={{ "text-decoration" : "underline" }}>Salon Beleza</Header>
+            </div>
           </div>
-          </div>
+          <br />
             <Sidebar as={Menu} animation='overlay' visible={visible} direction='top' vertical inverted>
               <Button secondary onClick={this.toggleVisibility}><Icon name='remove' size='large' /></Button>
             <Link to="/">

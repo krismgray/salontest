@@ -7,11 +7,6 @@ import { Link } from 'react-router-dom';
 import { Slide } from 'react-slideshow-image';
 import '../About.css';
 
-
-
-import image1 from '../images/image1.jpg';
-import image2 from '../images/image2.jpg';
-
 class About extends React.Component {
 
 
@@ -26,10 +21,13 @@ class About extends React.Component {
           <Container fluid>
             <Carousel>
               <Carousel.Item>
-                <img src={require('../images/image1.jpg')} />
+                <img src={require('../images/space1.1.jpg')} />
               </Carousel.Item>
               <Carousel.Item>
-                <img src={require('../images/image2.jpg')} />
+                <img src={require('../images/space2.1.jpg')} />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img src={require('../images/space3.1.jpg')} />
               </Carousel.Item>
             </Carousel>
           </Container>
@@ -43,7 +41,7 @@ class About extends React.Component {
             <Grid>
               <Row>
                 <Col md={16}>
-                  <h1>About Salon Baleza</h1>
+                  <h1>About Salon Beleza</h1>
                 </Col>
               </Row>
             </Grid>

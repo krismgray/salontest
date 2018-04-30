@@ -41,9 +41,7 @@ class Home extends Component {
           <Row>
             <Col xs={12}>
           <h1>Our Mission</h1>
-          <h1>How will a college break? A wine escapes opposite the chat!
-            The mug projects the overloaded chain. Can a bag butter this socialist gutter?
-            The fuse decides whatever shifting symphony. A neighborhood showers a motor above the infantile cookie.</h1>
+          <h1>Replace this content with your own content. Content should be relevant, unique and written with the goal of providing the reader the type of information they are looking for while motivating them to take action. It’s also important to make sure your content has good usage of SEO rich keywords but written in a creative, reader friendly way. Remember, your website is your 24/7 sales person. It never calls in sick, can sell an unlimited number of people at the same time with the exact same, perfect pitch. Therefore, putting time into writing strong content is key to your digital success.</h1>
           <br />
           <div className='mishbut'>
             <h1>Schedule a time with one of our stylists today!</h1>
@@ -80,20 +78,20 @@ class Home extends Component {
               <Col xs={12} sm={6} md={4}>
                 <Link to='/Stylists'>
                   <Image src={require('../images/prof1.jpg')} rounded responsive />
+                  <p>Stylists</p>
                 </Link>
-                <p>Stylists</p>
               </Col>
               <Col xs={12} sm={6} md={4}>
                 <Link to='Services'>
                   <Image src={require('../images/prof3.jpg')} rounded responsive />
+                  <p>Services</p>
                 </Link>
-                <p>Services</p>
               </Col>
               <Col xs={12} sm={6} md={4}>
                 <a href="https://www.instagram.com/salon.beleza/">
                   <Image src={require('../images/prof2.jpg')} rounded responsive />
+                  <p>Gallery</p>
                 </a>
-                <p>Gallery</p>
               </Col>
             </Row>
           </Grid>
@@ -110,9 +108,6 @@ class Home extends Component {
             <NavMenu />
           </div>
           <br />
-          <div className='mobileheader'>
-            <Header as='h1'>Welcome to Salon Beleza!</Header>
-          </div>
           <div className='mobilebody2'>
           </div>
           <div className='body2text'>
@@ -120,9 +115,7 @@ class Home extends Component {
             <Row>
               <Col xs={12}>
             <h1>Our Mission</h1>
-            <h1>How will a college break? A wine escapes opposite the chat!
-              The mug projects the overloaded chain. Can a bag butter this socialist gutter?
-              The fuse decides whatever shifting symphony. A neighborhood showers a motor above the infantile cookie.</h1>
+            <h1>Replace this content with your own content. Content should be relevant, unique and written with the goal of providing the reader the type of information they are looking for while motivating them to take action. It’s also important to make sure your content has good usage of SEO rich keywords but written in a creative, reader friendly way. Remember, your website is your 24/7 sales person. It never calls in sick, can sell an unlimited number of people at the same time with the exact same, perfect pitch. Therefore, putting time into writing strong content is key to your digital success.</h1>
             <br />
             <div className='mishbut'>
               <h1>Schedule a time with one of our stylists today!</h1>
@@ -159,20 +152,20 @@ class Home extends Component {
                 <Col xs={12} sm={6} md={4}>
                   <Link to='/Stylists'>
                     <Image src={require('../images/prof1.jpg')} rounded responsive />
+                    <p>Stylists</p>
                   </Link>
-                  <p>Stylists</p>
                 </Col>
                 <Col xs={12} sm={6} md={4}>
                   <Link to='Services'>
                     <Image src={require('../images/prof3.jpg')} rounded responsive />
+                    <p>Services</p>
                   </Link>
-                  <p>Services</p>
                 </Col>
                 <Col xs={12} sm={6} md={4}>
                   <a href="https://www.instagram.com/salon.beleza/">
                     <Image src={require('../images/prof2.jpg')} rounded responsive />
+                    <p>Gallery</p>
                   </a>
-                  <p>Gallery</p>
                 </Col>
               </Row>
             </Grid>

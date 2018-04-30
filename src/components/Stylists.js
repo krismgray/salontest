@@ -163,10 +163,10 @@ class Stylists extends Component {
                                            Brandi Rafiner</Item.Header>
                       <Item.Meta style={{ "padding-left" : "10px" }}>About Me</Item.Meta>
                       <Item.Description>
-                        <p className='textbox'>Brandi has been practicing and perfecting cosmetology professionally for over six years. It all started when she was three years old and her dad was supposed to be babysitting. A pair of scissors and a few minutes later, all the barbies, along with Brandi’s own head of hair, showed her passion and creativity with the beauty industry!
+                        <p className='textbox'>Brandi has been practicing and perfecting cosmetology professionally for over six years. She has shown her passion and creativity with the beauty industry since she was a little girl!
                         The summer before her senior year of high school, Brandi started cosmetology school at MATC.
-                        She graduated both hair school and high school around the same time, and jumped right into a salon. Over the years, Brandi has grown a love for men’s cuts, undercuts and foiling. As well as blondes, extensions and facial waxing. Brandi uses the brands Kevin Murphy, Keune and Redken along with many others to aid her in achieving the look each individual client is going for.
-                        Brandi has been at Salon Beleza for four years. She works part time in the salon doing hair, and full time outside the salon raising two wild redheads. Along with raising two kids, Brandi enjoys the outdoors, the small farm her and her husband have created, and bing watching Netflix with popcorn and Cadbury eggs.
+                        Over the years, Brandi has grown a love for men’s cuts, undercuts and foiling. As well as blondes, extensions and facial waxing. 
+                        Brandi has been at Salon Beleza for four years. She works part time in the salon doing hair, and full time with her kids. Brandi also enjoys the outdoors, the small farm her and her husband have created, and bing watching Netflix with popcorn and Cadbury eggs.
                         </p>
                       </Item.Description>
                       <div className='buttonbox'>
@@ -252,7 +252,7 @@ class Stylists extends Component {
                                         }}>Audrey Oberg</Item.Header>
                     <Item.Meta style={{ "padding-left" : "10px" }}>About Me</Item.Meta>
                     <Item.Description>
-                      <p className='textbox'>Audrey has been following her creative juices and goals since she was a little girl and fell in love with singing and dancing.  After high school, she was inspired to attend Cosmetology school at Aveda in Provo, UT.  She studied and completed her education in 2016 while earning the Rising Star award of her graduating class.  She has gone on to perfect her skills as a colorist specializing in  bayalage and blonding. She loves to share her love for beauty with her clients and leave them feeling beautiful inside and out. Audrey loves spending her free time with her husband and family.  She enjoys a good game of volleyball and working out. Audrey joined Salon Beleza In  2017 and has been such a valuable addition to the team.
+                      <p className='textbox'>Audrey has been following her creative juices and goals since she was a little girl. After high school, she was inspired to attend Cosmetology school at Aveda in Provo, UT.  She studied and completed her education in 2016 while earning the Rising Star award of her graduating class.  She has gone on to perfect her skills as a colorist specializing in  bayalage and blonding. She loves to share her love for beauty with her clients and leave them feeling beautiful inside and out. Audrey loves spending her free time with her husband and family.  She enjoys a good game of volleyball and working out. Audrey joined Salon Beleza In  2017 and has been such a valuable addition to the team.
                       </p>
                     </Item.Description>
                     <div className='buttonbox'>
@@ -342,7 +342,7 @@ class Stylists extends Component {
                       <Item.Meta style={{ "padding-left" : "10px" }}>About Me</Item.Meta>
                       <Item.Description>
                         <p className='textbox'>
-                          Winter has been a licensed cosmetologist for 12 years, starting in California in 2006. She was born and raised in northern California and went to school at Frederick and Charles Beauty College. Winter had a passion for the beauty industry from a very small age and decided she'd want to become a stylist around the age of 13. She enjoys balayage, foiling and short haircuts. She added hair extensions to her services 2 years ago and absolutely loves it.  Winter has been with Salon Beleza for 3 years now and brings so much personality and friendship to the group. Outside of doing hair Winter enjoys going to the gym, the outdoors and her 5 year old daughter. Winter comes from a family of artists and has two older siblings, both brothers gifted with amazing artistic talents.  Winters artistic abilities come out with doing hair and each client is her canvas. Winter is beyond passionate about her work, and her life as a stylist.
+                          Winter has been a licensed cosmetologist for 12 years. She was born and raised in northern California and went to school at Frederick and Charles Beauty College. Winter had a passion for the beauty industry from a very small age. She enjoys balayage, foiling and short haircuts, and hair extensions.  Winter has been with Salon Beleza for 3 years now. Outside of doing hair Winter enjoys going to the gym, the outdoors and her 5 year old daughter. Winter comes from a family of artists and has two older siblings.  Winters artistic abilities come out with doing hair and each client is her canvas. Winter is beyond passionate about her work, and her life as a stylist.
                         </p>
                       </Item.Description>
                       <div className='buttonbox'>
@@ -366,10 +366,13 @@ class Stylists extends Component {
                                           "font-size" : "22px",
                                           "text-decoration" : "underline",
                                           "padding-left" : "10px",
-                                        }}>Kimber Alvey</Item.Header>
+                                        }}>Natalie</Item.Header>
                     <Item.Meta style={{ "padding-left" : "10px" }}>About Me</Item.Meta>
                     <Item.Description>
-                      <p className='textbox'>Kimber has been doing hair for over six years and has been at salon Beleza for 5 years. She has a passion for balayage, blonding, and pixie cuts. She enjoys continuing her education, and learning new techniques. Kimber enjoys spending time with her husband and two dogs, and is currently in school for master aesthetics. She loves the creativity of doing hair, and is excited to expand her services in aesthetics.
+                      <p className='textbox'>
+                        Meet Natalie, she's been the Salon manager at Salon Beleza for a year and a half.
+                        She has been in the beauty industry for 10 years, attending cosmetology school, nail school, working as a nail technician, and managing in the beauty industry.
+                        Natalie loves making everyone feel special when they walk in the salon and loves getting to know our amazing guests. She loves animals, spending time with her family and traveling.
                       </p>
                     </Item.Description>
                     <div className='buttonbox'>
