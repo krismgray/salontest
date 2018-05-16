@@ -39,11 +39,11 @@ class Services extends Component {
                   </div>
                   <div className='listitem'>
                   <List.Item>Child's Haircut</List.Item>
-                  <List.Item>$20-$25</List.Item>
+                  <List.Item>$20-$25+</List.Item>
                   </div>
                   <div className='listitem'>
                   <List.Item>Boy's Student Haircut</List.Item>
-                  <List.Item>$20-$25</List.Item>
+                  <List.Item>$20-$25+</List.Item>
                   </div>
                   <div className='listitem'>
                   <List.Item>Girls Student Haircut</List.Item>
@@ -64,6 +64,9 @@ class Services extends Component {
                   <div className='listitem'>
                   <List.Item>Other Services</List.Item>
                   <List.Item>Call for Information</List.Item>
+                  </div>
+                  <div className='listitem'>
+                  <List.Item> + prices vary depending on sylists and services</List.Item>
                   </div>
                 </List>
               </Col>

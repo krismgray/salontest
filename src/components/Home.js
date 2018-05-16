@@ -35,44 +35,26 @@ class Home extends Component {
         </div>
         <div className='body2'>
         </div>
-        <br />
-        <div className='body2text'>
+        <div className='welcometext'>
+          <br />
+          <br />
         <Grid>
           <Row>
             <Col xs={12}>
-          <h1>Our Mission</h1>
-          <h1>Replace this content with your own content. Content should be relevant, unique and written with the goal of providing the reader the type of information they are looking for while motivating them to take action. It’s also important to make sure your content has good usage of SEO rich keywords but written in a creative, reader friendly way. Remember, your website is your 24/7 sales person. It never calls in sick, can sell an unlimited number of people at the same time with the exact same, perfect pitch. Therefore, putting time into writing strong content is key to your digital success.</h1>
-          <br />
-          <div className='mishbut'>
-            <h1>Schedule a time with one of our stylists today!</h1>
-            <Link to='/Stylists'>
-              <Button primary size='large'>BOOK NOW</Button>
-            </Link>
-          </div>
+              <h1>WELCOME TO SALON BELEZA</h1>
+          <p>Here at Salon Beleza our artists specialize in all of the latests techniques and trends to make sure we give our clients exacly what they are wanting. Come check us out and meet our amazing salon family and experience all we have to offer.  </p>
+
           <br />
           </Col>
         </Row>
       </Grid>
+      <br />
       </div>
-        <br />
         <div className='bodyrandom'>
         </div>
-        <br />
-        <div className='body3'>
-          <Container text>
-            <Header size='huge'>Header Here</Header>
-            <p>Whether you require microblading service or want to being building your own microblading skills,
-              our expert artists, Janelle and Melissa, are ready to help!
-              Their hearts lie in the beauty industry and their budding passion to share their experiences to grow other artists is unparalleled.
-              Read more about their backgrounds here!</p>
-              <p>Whether you require microblading service or want to being building your own microblading skills,
-                our expert artists, Janelle and Melissa, are ready to help!
-                Their hearts lie in the beauty industry and their budding passion to share their experiences to grow other artists is unparalleled.
-                Read more about their backgrounds here!</p>
-          </Container>
-        </div>
-        <br />
         <div className='body4'>
+          <br />
+          <br />
           <Grid>
             <Row>
               <Col xs={12} sm={6} md={4}>
@@ -95,8 +77,8 @@ class Home extends Component {
               </Col>
             </Row>
           </Grid>
+          <br />
         </div>
-        <br />
         <div>
           <Footer />
         </div>
@@ -110,43 +92,25 @@ class Home extends Component {
           <br />
           <div className='mobilebody2'>
           </div>
-          <div className='body2text'>
-          <Grid>
-            <Row>
-              <Col xs={12}>
-            <h1>Our Mission</h1>
-            <h1>Replace this content with your own content. Content should be relevant, unique and written with the goal of providing the reader the type of information they are looking for while motivating them to take action. It’s also important to make sure your content has good usage of SEO rich keywords but written in a creative, reader friendly way. Remember, your website is your 24/7 sales person. It never calls in sick, can sell an unlimited number of people at the same time with the exact same, perfect pitch. Therefore, putting time into writing strong content is key to your digital success.</h1>
-            <br />
-            <div className='mishbut'>
-              <h1>Schedule a time with one of our stylists today!</h1>
-              <Link to='/Stylists'>
-                <Button primary size='large'>BOOK NOW</Button>
-              </Link>
-            </div>
-            <br />
-            </Col>
-          </Row>
-        </Grid>
+          <br />
+          <div className='welcometext'>
+            <Grid>
+              <Row>
+                <Col xs={12}>
+                  <h1>WELCOME TO SALON BELEZA</h1>
+              <p style={{ "font-family" : "Offside"}}>Here at Salon Beleza our artists specialize in all of the latests techniques and trends to make sure we give our clients exacly what they are wanting. Come check us out and meet our amazing salon family and experience all we have to offer.  </p>
+
+              <br />
+              </Col>
+            </Row>
+          </Grid>
         </div>
           <br />
-          <div className='mobilebodyrandom'>
-          </div>
-          <br />
-          <div className='body3'>
-            <Container text>
-              <Header size='huge'>Header Here</Header>
-              <p>Whether you require microblading service or want to being building your own microblading skills,
-                our expert artists, Janelle and Melissa, are ready to help!
-                Their hearts lie in the beauty industry and their budding passion to share their experiences to grow other artists is unparalleled.
-                Read more about their backgrounds here!</p>
-                <p>Whether you require microblading service or want to being building your own microblading skills,
-                  our expert artists, Janelle and Melissa, are ready to help!
-                  Their hearts lie in the beauty industry and their budding passion to share their experiences to grow other artists is unparalleled.
-                  Read more about their backgrounds here!</p>
-            </Container>
-          </div>
+          <div className='mobilebodyrandom'></div>
           <br />
           <div className='body4'>
+            <br />
+            <br />
             <Grid>
               <Row>
                 <Col xs={12} sm={6} md={4}>
@@ -169,8 +133,8 @@ class Home extends Component {
                 </Col>
               </Row>
             </Grid>
+            <br />
           </div>
-          <br />
           <div>
             <Footer />
           </div>

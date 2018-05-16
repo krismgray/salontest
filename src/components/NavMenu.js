@@ -36,11 +36,6 @@ class NavMenu extends Component {
               Home
             </Menu.Item>
           </Link>
-          <Link to="/About">
-            <Menu.Item name='about' active={activeItem === 'about'} onClick={this.handleClick}>
-              About
-            </Menu.Item>
-          </Link>
           <Link to="/Stylists">
             <Menu.Item name='stylists' active={activeItem === 'stylists'} onClick={this.handleClick}>
               Stylists
@@ -61,11 +56,6 @@ class NavMenu extends Component {
               Services
             </Menu.Item>
           </Link>
-          <Link to='FAQs'>
-            <Menu.Item name='facts' active={activeItem === 'facts'} onClick={this.handleClick}>
-              FAQs
-            </Menu.Item>
-          </Link>
           <Link to='Contact'>
             <Menu.Item name='contact' active={activeItem === 'contact'} onClick={this.handleClick}>
               Contact
@@ -81,6 +71,7 @@ class NavMenu extends Component {
             <div className='mobilemenu1'>
             <Button size='big' color='black' icon onClick={this.toggleVisibility}><Icon name='content' size='large' /></Button>
             </div>
+            <br />
             <div className='mobilemenu2'>
               <Header as='h1' style={{ "text-decoration" : "underline" }}>Salon Beleza</Header>
             </div>
@@ -93,11 +84,6 @@ class NavMenu extends Component {
                 Home
               </Menu.Item>
             </Link>
-            <Link to="/About">
-              <Menu.Item name='about' active={activeItem === 'about'} onClick={this.handleClick}>
-                About
-              </Menu.Item>
-            </Link>
             <Link to="/Stylists">
               <Menu.Item name='stylists' active={activeItem === 'stylists'} onClick={this.handleClick}>
                 Stylists
@@ -106,11 +92,6 @@ class NavMenu extends Component {
               <Link to='Services'>
                 <Menu.Item name='services' active={activeItem === 'services'} onClick={this.handleClick}>
                   Services
-                </Menu.Item>
-              </Link>
-              <Link to='FAQs'>
-                <Menu.Item name='facts' active={activeItem === 'facts'} onClick={this.handleClick}>
-                  FAQs
                 </Menu.Item>
               </Link>
               <Link to='Contact'>

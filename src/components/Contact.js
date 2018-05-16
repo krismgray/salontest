@@ -57,8 +57,33 @@ class Contact extends Component {
                 <a href="mailto:janelle@belezabrowbar.com">
                   janelle@belezabrowbar.com
                 </a>
+                <p></p>
+                <p>
+                  <p style={{ "text-decoration" : "underline", "padding-bottom" : "3px"}}>
+                    Cancellation Policy
+                  </p>
+                  24 hour cancellation is preferred.
+                  Cancellations or rescheduling needing to be made within 8 hours of your scheduled appointment must be done directly through the salon by calling 801-766-9838.
+                  No showing an appointment may result in a fee for the stylist's time which you had booked.
+                  No showing more than once will require prepayment for your service before you may schedule your next appointment.
+                  Arriving more than 10 minutes late to your appointment will result in it being rescheduled.
+                </p>
               </Col>
               <Col xs={12} md={6}>
+                <div className='instructions'>
+                  <p>
+                    <p style={{ "text-decoration" : "underline", "padding-bottom" : "3px"}}>
+                      Special Instructions
+                    </p>
+                    To ensure a relaxing salon experience for our guests,
+                    we ask that arrangements for small children be made prior to your appointment.
+                  </p>
+                </div>
+                <br />
+                <div className='schedule'>
+                  <p>Accpets Walk-in?</p>
+                  <p>Yes</p>
+                </div>
                 <div className='scheduletop'>
                   <p>Working Hours</p>
                 </div>
@@ -113,7 +138,7 @@ class Contact extends Component {
         <div className='section1'>
           <Grid>
             <Row>
-              <Col xs={8} md={6}>
+              <Col xs={12} md={6}>
                 <div className='contacttitle'>Contact</div>
                 <Header as='h2' disabled>Salon Beleza</Header>
                 <p>1978 Redwood Road Suite #100, Saratoga Springs, UT 84045</p>
@@ -128,8 +153,34 @@ class Contact extends Component {
                 <a href="mailto:janelle@belezabrowbar.com">
                   janelle@belezabrowbar.com
                 </a>
+                <p></p>
+                <p>
+                  <p style={{ "text-decoration" : "underline", "padding-bottom" : "4px"}}>
+                    Cancellation Policy
+                  </p>
+                  24 hour cancellation is preferred.
+                  Cancellations or rescheduling needing to be made within 8 hours of your scheduled appointment must be done directly through the salon by calling 801-766-9838.
+                  No showing an appointment may result in a fee for the stylist's time which you had booked.
+                  No showing more than once will require prepayment for your service before you may schedule your next appointment.
+                  Arriving more than 10 minutes late to your appointment will result in it being rescheduled.
+                </p>
+                <p></p>
               </Col>
               <Col xs={12} md={6}>
+                <div className='instructions'>
+                  <p>
+                    <p style={{ "text-decoration" : "underline", "padding-bottom" : "3px"}}>
+                      Special Instructions
+                    </p>
+                    To ensure a relaxing salon experience for our guests,
+                    we ask that arrangements for small children be made prior to your appointment.
+                  </p>
+                </div>
+                <p></p>
+                <div className='schedule'>
+                  <p>Accpets Walk-in?</p>
+                  <p>Yes</p>
+                </div>
                 <div className='scheduletop'>
                   <p>Working Hours</p>
                 </div>

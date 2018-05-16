@@ -19,7 +19,7 @@ class Stylists extends Component {
           <Grid>
             <Row>
               <Col md={12}>
-                <h1>Meet Our Team!</h1>
+                <h1>Meet Our Stylists!</h1>
               </Col>
             </Row>
           </Grid>
@@ -74,7 +74,7 @@ class Stylists extends Component {
                                         }}>Brooke Andersen</Item.Header>
                     <Item.Meta style={{ "padding-left" : "10px" }}>About Me</Item.Meta>
                     <Item.Description>
-                      <p className='textbox'>Brooke has been doing hair for 3 Years. Growing up she always had a passion for hair and loves that she gets to do it every day. Brooke graduated from Aveda Institute in Provo Utah. She specializes in balayages and highlights but also loves doing colors and cuts. Hey favorite thing about the industry is seeing the smile on her clients face and making them feel beautiful everyday . Outside of work she and her husband love spending time with their family. They love to spend time outdoors running, hiking, or even just a weekend in the mountains with family and friends.
+                      <p className='textbox'>Brooke has been doing hair for 3 Years. Growing up she always had a passion for hair and loves that she gets to do it every day. Brooke graduated from Aveda Institute in Provo Utah. She specializes in balayages and highlights but also loves doing colors and cuts. Her favorite thing about the industry is seeing the smile on her clients face and making them feel beautiful everyday . Outside of work she and her husband love spending time with their family. They love to spend time outdoors running, hiking, or even just a weekend in the mountains with family and friends.
                       </p>
                     </Item.Description>
                     <div className='buttonbox'>
@@ -165,7 +165,7 @@ class Stylists extends Component {
                       <Item.Description>
                         <p className='textbox'>Brandi has been practicing and perfecting cosmetology professionally for over six years. She has shown her passion and creativity with the beauty industry since she was a little girl!
                         The summer before her senior year of high school, Brandi started cosmetology school at MATC.
-                        Over the years, Brandi has grown a love for men’s cuts, undercuts and foiling. As well as blondes, extensions and facial waxing. 
+                        Over the years, Brandi has grown a love for men’s cuts, undercuts and foiling. As well as blondes, extensions and facial waxing.
                         Brandi has been at Salon Beleza for four years. She works part time in the salon doing hair, and full time with her kids. Brandi also enjoys the outdoors, the small farm her and her husband have created, and bing watching Netflix with popcorn and Cadbury eggs.
                         </p>
                       </Item.Description>
@@ -358,7 +358,7 @@ class Stylists extends Component {
               <Item.Group>
                 <Item>
                   <LazyLoad>
-                    <Item.Image src={require('../images/kimber.jpg')} size='medium' verticalAlign='middle' />
+                    <Item.Image src={require('../images/nat20.jpg')} size='medium' verticalAlign='middle' />
                   </LazyLoad>
                   <br />
                   <Item.Content>
